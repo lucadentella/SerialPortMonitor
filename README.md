@@ -27,6 +27,7 @@ Pre-compiled versions of the application are available in the [Releases](https:/
 
 ## Build
 The application is developed in [Python](https://www.python.org/). To run it, you need to install the following libraries via **pip**:
+
 ```pip install pywin32 pystray pyserial pillow winotify```
 
 To generate a Windows executable, you need to use the **pyinstaller** utility:

@@ -31,7 +31,9 @@ The application is developed in [Python](https://www.python.org/). To run it, yo
 ```pip install pywin32 pystray pyserial pillow winotify```
 
 To generate a Windows executable, you need to use the **pyinstaller** utility:
+
 ```pip install pyinstaller```
 
 and pass the .spec file available in the repository as a parameter
+
 ```pyinstaller --clean SerialPortMonitor.spec```
